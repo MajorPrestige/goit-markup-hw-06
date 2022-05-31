@@ -807,6 +807,8 @@ img {
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+ /* ! СПРОСИТЬ У ЯРОСЛАВА */
 /* .checkbox:focus-within + .modal-checkbox,
 .checkbox:checked + .modal-checkbox {
    background-color: var(--accent-color);
