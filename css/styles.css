@@ -99,6 +99,7 @@ img {
    letter-spacing: 0.06em;
    cursor: pointer;
    color: var(--main-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    
    transition-property: background-color;
    transition-duration: 250ms;
@@ -645,6 +646,7 @@ img {
    left: 50%;
    width: 528px;
    height: 581px;
+   padding: 40px;
 
    border-radius: 4px;
    background-color: #FFFFFF;
@@ -661,4 +663,35 @@ img {
    border: none;
    background-color: transparent;
    cursor: pointer;
+}
+.modal-form {
+   display: flex;
+   flex-direction: column;
+}
+.modal-title {
+   display: flex;
+   justify-content: center;
+
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.15;
+   text-align: center;
+}
+.modal-field {
+   margin-bottom: 10px;
+}
+.modal-field:last-of-type {
+   margin-bottom: 20px;
+}
+.modal-input {
+   width: 100%;
+}
+
+
+
+.modal-btn {
+   padding: 10px 56px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
 }
