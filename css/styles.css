@@ -807,10 +807,17 @@ img {
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.checkbox:focus-within + .modal-checkbox,
+/* .checkbox:focus-within + .modal-checkbox,
 .checkbox:checked + .modal-checkbox {
    background-color: var(--accent-color);
+   outline: 1px solid var(--accent-color);
+} */
+
+.checkbox:checked + .modal-checkbox {
+   background-color: var(--accent-color);
+   outline: 1px solid var(--accent-color);
+}
+.hidden:focus + .modal-checkbox {
    outline: 1px solid var(--accent-color);
 }
 .flex-container.modal-agreement {
